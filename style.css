@@ -1,0 +1,81 @@
+html, body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+h1 {
+	font-size: 2.25em;
+	font-weight: normal;
+}
+main, h1 {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+#head h1 {
+	margin: 0;
+	margin-bottom: 0.4em;
+	margin-top: 0;
+}
+#head {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.socials {
+	width: 5%; 
+	min-width: 75px;
+	margin: 0.5%;
+}
+.container {
+	display: grid;
+	grid-template-rows: 3.5em 5fr;
+	grid-template-columns: 1fr 1fr;
+	padding: 3.5%;
+	border-radius: 20px;
+	justify-content: center;
+	align-content: center;
+	transition: transform 1s ease-in-out;
+}
+.container:hover {
+    transform: scale(0.95);
+}
+#basket-finder {
+	background-color: #a0faa0;
+}
+#smart-home {
+	background-color: #fae0a0;
+}
+#text-analyzer {
+	background-color: #a0e6fa;
+}
+.name {
+	grid-area: 1 / 1 / 1 / 1;
+	font-size: 1.5em;
+}
+.description {
+	grid-area: 2 / 1 / 4 / 1;
+	font-size: 1.5em;
+	color: #636363;
+}
+.image {
+	grid-area: 2 / 2 / 2 / 2;
+	width: calc(30vw);
+	margin-left: 15%;
+}
+.github {
+	width: 20%;
+	min-width: 75px;
+}
