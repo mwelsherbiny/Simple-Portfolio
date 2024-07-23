@@ -68,16 +68,15 @@ a {
 }
 .description {
 	grid-area: 2 / 1 / 2 / 3;
-	display: flex;
-	font-size: 1.5em;
-	color: #636363;
 }
-p {
+.description p {
 	flex: 1;
+	font-size: 20px;
 }
 .image {
 	width: calc(30vw);
-	padding-left: 1em;
+	float: right;
+	margin-left: 1em;
 }
 .github {
 	width: 15%;
